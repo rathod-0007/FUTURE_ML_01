@@ -115,7 +115,7 @@ grid_search = GridSearchCV(estimator=rf, param_grid=param_grid, ...)
 ![RF Plot]([[assets/rf_prediction.png](https://github.com/rathod-0007/FUTURE_ML_01/blob/5495d27e8fdb2b023b8d9266c150560bc81d9b0a/RF%20Actual%20vs%20Predicted.png)](https://github.com/rathod-0007/FUTURE_ML_01/blob/main/RF%20Actual%20vs%20Predicted.png?raw=true))  
 *Random Forest Predictions vs Actual*
 
-![Tuned RF Plot]([assets/tuned_rf_prediction.png](https://github.com/rathod-0007/FUTURE_ML_01/blob/5495d27e8fdb2b023b8d9266c150560bc81d9b0a/Tuned%20RF.png))  
+![Tuned RF Plot](![image](https://github.com/user-attachments/assets/8c10a32a-1131-40fb-bef1-f636e6daead3))  
 Tuned Random Forest Predictions vs Actual*
 
 ---
