@@ -60,7 +60,7 @@ df = pd.read_csv('sales_data_sample.csv', encoding='latin1')
 ```
 
 ### Step 2: Clean Dates & Sales Columns
-- Parse `OrderDate`
+- Parse `ORDERDATE`
 - Handle missing/invalid values
 
 ### Step 3: Prophet Forecasting
@@ -112,7 +112,7 @@ grid_search = GridSearchCV(estimator=rf, param_grid=param_grid, ...)
 ![Forecast Plot]([assets/forecast_plot.png](https://github.com/rathod-0007/FUTURE_ML_01/blob/5495d27e8fdb2b023b8d9266c150560bc81d9b0a/Sales_Forecast.png))  
 *Forecast trend using Prophet*
 
-![RF Plot]([assets/rf_prediction.png](https://github.com/rathod-0007/FUTURE_ML_01/blob/5495d27e8fdb2b023b8d9266c150560bc81d9b0a/RF%20Actual%20vs%20Predicted.png))  
+![RF Plot]([[assets/rf_prediction.png](https://github.com/rathod-0007/FUTURE_ML_01/blob/5495d27e8fdb2b023b8d9266c150560bc81d9b0a/RF%20Actual%20vs%20Predicted.png)](https://github.com/rathod-0007/FUTURE_ML_01/blob/main/RF%20Actual%20vs%20Predicted.png?raw=true))  
 *Random Forest Predictions vs Actual*
 
 ![Tuned RF Plot]([assets/tuned_rf_prediction.png](https://github.com/rathod-0007/FUTURE_ML_01/blob/5495d27e8fdb2b023b8d9266c150560bc81d9b0a/Tuned%20RF.png))  
