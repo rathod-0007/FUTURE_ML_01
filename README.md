@@ -106,13 +106,12 @@ grid_search = GridSearchCV(estimator=rf, param_grid=param_grid, ...)
 
 ## 📈 Visual Output Example
 
-## 📈 Visual Output Example
 
 ![Forecast Plot](https://github.com/rathod-0007/FUTURE_ML_01/blob/main/Sales%20Forecast.png?raw=true)  
 *Forecast trend using Prophet*
 
 ![Forecast Plot](https://github.com/rathod-0007/FUTURE_ML_01/blob/main/Sales_Forecast.png?raw=true)  
-*Forecast trend using Prophet*
+*Forecast trend, weekly, yearly using Prophet*
 
 ![RF Plot](https://github.com/rathod-0007/FUTURE_ML_01/blob/main/RF%20Actual%20vs%20Predicted.png?raw=true)  
 *Random Forest Predictions vs Actual*
